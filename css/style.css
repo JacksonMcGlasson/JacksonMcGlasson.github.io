@@ -22,3 +22,8 @@ a{
    padding: 0 5%;
    background-color: skyblue;
 }
+
+#logo{
+    text-align: center;
+    margin: 0;
+}
