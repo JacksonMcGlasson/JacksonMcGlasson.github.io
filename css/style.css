@@ -9,7 +9,7 @@ h1, h2{
  color: darkslategray;
     
 }
-
+/*links*/
 a{
  color: darkslateblue;
  text-decoration: none;
@@ -20,7 +20,7 @@ a{
    max-width: 940px;
    margin: 0 auto;
    padding: 0 5%;
-   background-color: skyblue;
+  
 }
 
 #logo{
