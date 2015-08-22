@@ -6,13 +6,17 @@ body{
 }
 
 h1, h2{
- color: darkslategray;
+ color: darkgray;
     
 }
 /*links*/
 a{
  color: darkslateblue;
  text-decoration: none;
+}
+
+nav{
+  background-color: skyblue;
 }
 
 #wrapper{
@@ -26,4 +30,8 @@ a{
 #logo{
     text-align: center;
     margin: 0;
+}
+
+header{
+  background-color: midnightblue;
 }
