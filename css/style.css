@@ -1,13 +1,13 @@
 body{
     background-color: cadetblue;
     font-size: 20px;
-    
+    font-family: 'Exo', sans-serif;
     
 }
 
 h1, h2{
  color: darkgray;
-    
+ margin: 15px 0;
 }
 /*links*/
 a{
@@ -18,6 +18,15 @@ a{
 nav{
   background-color: skyblue;
 }
+
+nav a, nav a:visited{
+    color: blue;
+}
+
+nav a.selected, nav a:hover{
+   color: darkblue;
+}
+
 
 #wrapper{
    /*sets maximmum width*/
