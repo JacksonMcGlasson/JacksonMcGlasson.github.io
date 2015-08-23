@@ -4,19 +4,39 @@ body{
     font-family: 'Exo', sans-serif;
     
 }
-
-h1, h2{
+/*headers***************************************************************************/
+h1{
  color: darkgray;
  margin: 15px 0;
 }
-/*links*/
+
+h2{
+ color: darkgray;
+ margin: -5px 0 0;
+}
+
+header{
+  background-color: midnightblue;
+}
+/*footer****************************************************************************/
+footer{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.social-media-icon{
+   margin: 0 5px;
+}
+/*links******************************************************************************/
 a{
  color: darkslateblue;
  text-decoration: none;
 }
-
+/*navigation***************************************************************************/
 nav{
   background-color: skyblue;
+  text-align: center;
+  margin: 20px 0 0;
 }
 
 nav a, nav a:visited{
@@ -27,7 +47,7 @@ nav a.selected, nav a:hover{
    color: darkblue;
 }
 
-
+/*ids***********************************************************************************/
 #wrapper{
    /*sets maximmum width*/
    max-width: 940px;
@@ -41,6 +61,3 @@ nav a.selected, nav a:hover{
     margin: 0;
 }
 
-header{
-  background-color: midnightblue;
-}
