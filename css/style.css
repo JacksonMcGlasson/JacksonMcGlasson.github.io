@@ -4,6 +4,10 @@ body{
     font-family: 'Exo', sans-serif;
     
 }
+
+img{
+    max-width: 100%;
+}
 /*headers***************************************************************************/
 h1{
  color: darkgray;
@@ -17,11 +21,17 @@ h2{
 
 header{
   background-color: midnightblue;
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+  
 }
 /*footer****************************************************************************/
 footer{
   text-align: center;
   padding-top: 50px;
+  clear: both;
 }
 
 .social-media-icon{
@@ -39,7 +49,17 @@ nav{
   margin: 20px 0 0;
 }
 
-nav a, nav a:visited{
+nav ul{
+  list-style: none;
+  padding: 10px 0;
+  margin: 0 10px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a, nav a: visited{
     color: blue;
 }
 
@@ -48,6 +68,30 @@ nav a.selected, nav a:hover{
 }
 
 /*ids***********************************************************************************/
+
+
+#gallery{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#gallery li{
+  float:left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: darkcyan;
+  color: beige;
+}
+
+#gallery li a p{
+   margin: 0;
+   padding: 5%;
+   font-size: 0.8em;
+   color: darkblue;
+   
+}
+
 #wrapper{
    /*sets maximmum width*/
    max-width: 940px;
