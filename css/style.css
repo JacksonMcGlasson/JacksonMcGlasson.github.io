@@ -110,10 +110,28 @@ nav a.selected, nav a:hover{
     text-align: center;
     margin: 0;
 }
-/*about me page**********************************************************************************************/
+/*about me page********************************************************/
 /*should be 200 px photo*/
 .profile-photo{
   display: block;
   max-width: 0 auto 30px;
   border-radius: 15%;
+}
+
+/*contact page********************************************************/
+
+.contact-info a{
+   display: block;
+   background-repeat: no-repeat;
+   background-size: 20px 20px;
+   padding: 0 0 0 30px;
+   margin: 0 0 10px;
+}
+
+.contact-info li.mail a{
+   background-image: url('../img/mail.jpg')
+}
+
+.contact-info li.twitter a{
+   background-image: url('../img/instagram.jpg')
 }
