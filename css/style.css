@@ -149,4 +149,25 @@ nav a.selected, nav a:hover{
        float: right;
     }
     /*three column portfolio layout*/
+    #gallery li{
+       width: 28.3333%;
+       float: left;
+    }
+    
+    #gallery li:nth-child(4n){
+       clear: left;
+    }
+    /*about page*/
+    .profile-photo{
+      float:left;
+      margin: 0 5% 80px 0;
+    }
+}
+
+@media screen and (min-width: 660px){
+    /*nav*/
+    header{
+        border-bottom: 5px solid black;
+        margin-bottom: 60px;
+    }
 }
