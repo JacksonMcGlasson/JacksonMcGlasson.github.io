@@ -135,3 +135,18 @@ nav a.selected, nav a:hover{
 .contact-info li.twitter a{
    background-image: url('../img/instagram.jpg')
 }
+
+/*media queries********************************************************/
+/*two column layout*/
+
+@media screen and (min-width: 480px){
+    #primary{
+       width: 50%;
+       float: left;
+    }
+    #secondary{
+       width: 40%;
+       float: right;
+    }
+    /*three column portfolio layout*/
+}
