@@ -51,6 +51,7 @@ nav{
   background-color: skyblue;
   text-align: center;
   margin: 20px 0 0;
+  border-top: 5px solid darkslategrey;
 }
 
 nav ul{
@@ -66,7 +67,7 @@ nav li {
 }
 
 nav a, nav a: visited{
-    color: blue;
+    color: darkblue;
 }
 
 nav a.selected, nav a:hover{
@@ -167,7 +168,8 @@ nav a.selected, nav a:hover{
 @media screen and (min-width: 660px){
     /*nav*/
     header{
-        border-bottom: 5px solid black;
+        border-top: 5px solid darkslategrey;
+        border-bottom: 5px solid darkslategrey;
         margin-bottom: 60px;
     }
 }
