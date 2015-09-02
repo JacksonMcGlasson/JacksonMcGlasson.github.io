@@ -1,7 +1,7 @@
 body{
-    background-image: url ("../img/blue-background.jpg");
+    background-image: url ("http://www.cool-backgrounds.org/view-spooks_background_png-1280x720.html");
     background-color: cadetblue;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Exo', sans-serif;
     color: skyblue;
 }
@@ -154,7 +154,7 @@ nav a.selected, nav a:hover{
     }
     /*three column portfolio layout*/
     #gallery li{
-       width: 28%;
+       width: 28.3333%;
        float: left;
     }
     
