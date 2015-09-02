@@ -1,4 +1,5 @@
 body{
+    background-image: url ("../img/blue-background.jpg");
     background-color: cadetblue;
     font-size: 20px;
     font-family: 'Exo', sans-serif;
@@ -153,7 +154,7 @@ nav a.selected, nav a:hover{
     }
     /*three column portfolio layout*/
     #gallery li{
-       width: 28.3333%;
+       width: 28%;
        float: left;
     }
     
