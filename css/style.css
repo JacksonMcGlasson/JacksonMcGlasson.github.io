@@ -1,8 +1,8 @@
 body {
     background-color: cadetblue;
-    font-size: 25px;
-    font-family: 'Exo', sans-serif;
     color: skyblue;
+    font-family: 'Exo', sans-serif;
+    font-size: 25px;
 }
 
 img {
@@ -42,9 +42,9 @@ header {
 /*footer****************************************************************************/
 
 footer {
-    text-align: center;
-    padding-top: 50px;
     clear: both;
+    padding-top: 50px;
+    text-align: center;
 }
 
 .social-media-icon {
@@ -64,21 +64,21 @@ a {
 
 nav {
     background-color: skyblue;
-    text-align: center;
-    margin: 20px 0 0;
     border-top: 5px solid darkslategrey;
+    margin: 20px 0 0;
+    text-align: center;
 }
 
 nav ul {
     list-style: none;
-    padding: 10px 0;
     margin: 0 10px;
+    padding: 10px 0;
 }
 
 nav li {
     display: inline-block;
-    padding: 5px 20px 5px;
     font-weight: 300;
+    padding: 5px 20px 5px;
 }
 
 nav a,
@@ -86,7 +86,7 @@ nav a: visited {
     color: darkblue;
 }
 
-nav a.selected,
+nav .selected,
 nav a:hover {
     color: darkblue;
 }
@@ -95,36 +95,36 @@ nav a:hover {
 /*ids***********************************************************************************/
 
 #gallery {
+    list-style: none;
     margin: 0;
     padding: 0;
-    list-style: none;
 }
 
 #gallery li {
-    float: left;
-    width: 45%;
-    margin: 2.5%;
     background-color: darkcyan;
     color: beige;
+    float: left;
+    margin: 2.5%;
+    width: 45%;
 }
 
 #gallery li a p {
+    color: darkblue;
+    font-size: 0.8em;
     margin: 0;
     padding: 5%;
-    font-size: 0.8em;
-    color: darkblue;
 }
 
 #wrapper {
     /*sets maximmum width*/
-    max-width: 940px;
     margin: 0 auto;
+    max-width: 940px;
     padding: 0 5%;
 }
 
 #logo {
-    text-align: center;
     margin: 0;
+    text-align: center;
 }
 
 
@@ -134,27 +134,27 @@ nav a:hover {
 /*should be 200 px photo*/
 
 .profile-photo {
-    display: block;
-    max-width: 0 auto 30px;
     border-radius: 15%;
+    display: block;
+    max-width: 30px;
 }
 
 
 /*contact page********************************************************/
 
 .contact-info a {
-    display: block;
     background-repeat: no-repeat;
     background-size: 20px 20px;
-    padding: 0 0 0 30px;
+    display: block;
     margin: 0 0 10px;
+    padding: 0 0 0 30px;
 }
 
-.contact-info li.mail a {
+.contact-info .mail a {
     background-image: url('../img/mail.jpg')
 }
 
-.contact-info li.twitter a {
+.contact-info .twitter a {
     background-image: url('../img/instagram.jpg')
 }
 
@@ -166,17 +166,17 @@ nav a:hover {
 
 @media screen and (min-width: 480px) {
     #primary {
-        width: 50%;
         float: left;
+        width: 50%;
     }
     #secondary {
-        width: 40%;
         float: right;
+        width: 40%;
     }
     /*three column portfolio layout*/
     #gallery li {
-        width: 28.3333%;
         float: left;
+        width: 28.3333%;
     }
     #gallery li:nth-child(4n) {
         clear: left;
@@ -191,8 +191,8 @@ nav a:hover {
 @media screen and (min-width: 660px) {
     /*nav*/
     header {
-        border-top: 5px solid darkslategrey;
         border-bottom: 5px solid darkslategrey;
+        border-top: 5px solid darkslategrey;
         margin-bottom: 60px;
     }
 }
