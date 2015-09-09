@@ -1,179 +1,196 @@
-body{
+body {
     background-color: cadetblue;
     font-size: 25px;
     font-family: 'Exo', sans-serif;
     color: skyblue;
-    
 }
 
-img{
+img {
     max-width: 100%;
 }
 
-h3{
-  margin: 0 0 1em 0;
+h3 {
+    margin: 0 0 1em 0;
 }
- 
-p{
-  padding: 5px 0 5px;
+
+p {
+    padding: 5px 0 5px;
 }
+
 
 /*headers***************************************************************************/
-h1{
- color: darkgray;
- margin: 15px 0;
+
+h1 {
+    color: darkgray;
+    margin: 15px 0;
 }
 
-h2{
- color: darkgray;
- margin: -5px 0 0;
+h2 {
+    color: darkgray;
+    margin: -5px 0 0;
 }
 
-header{
-  background-color: midnightblue;
-  float: left;
-  margin: 0 0 30px 0;
-  padding: 5px 0 5px 0;
-  width: 100%;
-  
+header {
+    background-color: midnightblue;
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 5px 0;
+    width: 100%;
 }
+
+
 /*footer****************************************************************************/
-footer{
-  text-align: center;
-  padding-top: 50px;
-  clear: both;
+
+footer {
+    text-align: center;
+    padding-top: 50px;
+    clear: both;
 }
 
-.social-media-icon{
-   margin: 0 5px;
+.social-media-icon {
+    margin: 0 5px;
 }
+
+
 /*links******************************************************************************/
-a{
- color: darkslateblue;
- text-decoration: none;
-}
-/*navigation***************************************************************************/
-nav{
-  background-color: skyblue;
-  text-align: center;
-  margin: 20px 0 0;
-  border-top: 5px solid darkslategrey;
+
+a {
+    color: darkslateblue;
+    text-decoration: none;
 }
 
-nav ul{
-  list-style: none;
-  padding: 10px 0;
-  margin: 0 10px;
+
+/*navigation***************************************************************************/
+
+nav {
+    background-color: skyblue;
+    text-align: center;
+    margin: 20px 0 0;
+    border-top: 5px solid darkslategrey;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+    margin: 0 10px;
 }
 
 nav li {
-  display: inline-block;
-  padding: 5px 20px 5px;
-  font-weight: 300;
+    display: inline-block;
+    padding: 5px 20px 5px;
+    font-weight: 300;
 }
 
-nav a, nav a: visited{
+nav a,
+nav a: visited {
     color: darkblue;
 }
 
-nav a.selected, nav a:hover{
-   color: darkblue;
+nav a.selected,
+nav a:hover {
+    color: darkblue;
 }
+
 
 /*ids***********************************************************************************/
 
-
-#gallery{
+#gallery {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-#gallery li{
-  float:left;
-  width: 45%;
-  margin: 2.5%;
-  background-color: darkcyan;
-  color: beige;
+#gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: darkcyan;
+    color: beige;
 }
 
-#gallery li a p{
-   margin: 0;
-   padding: 5%;
-   font-size: 0.8em;
-   color: darkblue;
-   
+#gallery li a p {
+    margin: 0;
+    padding: 5%;
+    font-size: 0.8em;
+    color: darkblue;
 }
 
-#wrapper{
-   /*sets maximmum width*/
-   max-width: 940px;
-   margin: 0 auto;
-   padding: 0 5%;
-  
+#wrapper {
+    /*sets maximmum width*/
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
 }
 
-#logo{
+#logo {
     text-align: center;
     margin: 0;
 }
+
+
 /*about me page********************************************************/
+
+
 /*should be 200 px photo*/
-.profile-photo{
-  display: block;
-  max-width: 0 auto 30px;
-  border-radius: 15%;
+
+.profile-photo {
+    display: block;
+    max-width: 0 auto 30px;
+    border-radius: 15%;
 }
+
 
 /*contact page********************************************************/
 
-.contact-info a{
-   display: block;
-   background-repeat: no-repeat;
-   background-size: 20px 20px;
-   padding: 0 0 0 30px;
-   margin: 0 0 10px;
+.contact-info a {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
 }
 
-.contact-info li.mail a{
-   background-image: url('../img/mail.jpg')
+.contact-info li.mail a {
+    background-image: url('../img/mail.jpg')
 }
 
-.contact-info li.twitter a{
-   background-image: url('../img/instagram.jpg')
+.contact-info li.twitter a {
+    background-image: url('../img/instagram.jpg')
 }
+
 
 /*media queries********************************************************/
+
+
 /*two column layout*/
 
-@media screen and (min-width: 480px){
-    #primary{
-       width: 50%;
-       float: left;
+@media screen and (min-width: 480px) {
+    #primary {
+        width: 50%;
+        float: left;
     }
-    #secondary{
-       width: 40%;
-       float: right;
+    #secondary {
+        width: 40%;
+        float: right;
     }
     /*three column portfolio layout*/
-    #gallery li{
-       width: 28.3333%;
-       float: left;
+    #gallery li {
+        width: 28.3333%;
+        float: left;
     }
-    
-    #gallery li:nth-child(4n){
-       clear: left;
+    #gallery li:nth-child(4n) {
+        clear: left;
     }
     /*about page*/
-    .profile-photo{
-      float:left;
-      margin: 0 5% 80px 0;
+    .profile-photo {
+        float: left;
+        margin: 0 5% 80px 0;
     }
 }
 
-@media screen and (min-width: 660px){
+@media screen and (min-width: 660px) {
     /*nav*/
-    header{
+    header {
         border-top: 5px solid darkslategrey;
         border-bottom: 5px solid darkslategrey;
         margin-bottom: 60px;
