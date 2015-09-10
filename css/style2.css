@@ -161,9 +161,9 @@ nav a:hover {
     background-image: url('../img/instagram.jpg')
 }
 .carousel {
-    position: relative;
-    margin-bottom: 20px;
     line-height: 1;
+    margin-bottom: 20px;
+    position: relative;
 }
 
 /*media queries********************************************************/
