@@ -1,9 +1,9 @@
 /*csslint ids: false, box-model: false*/
 
 body {
-    background-color: cadetblue;
-    color: skyblue;
-    font-family: 'Exo', sans-serif;
+    background-color: olive;
+    color: saddlebrown;
+    font-family: 'Permanent Marker', cursive;
     font-size: 25px;
 }
 
@@ -23,17 +23,17 @@ p {
 /*headers***************************************************************************/
 
 h1 {
-    color: darkgray;
+    color: sandybrown;
     margin: 15px 0;
 }
 
 h2 {
-    color: darkgray;
+    color: sandybrown;
     margin: -5px 0 0;
 }
 
 header {
-    background-color: midnightblue;
+    background-color: sienna;
     float: left;
     margin: 0 0 30px 0;
     padding: 5px 0 5px 0;
@@ -57,7 +57,7 @@ footer {
 /*links******************************************************************************/
 
 a {
-    color: darkslateblue;
+    color: saddlebrown;
     text-decoration: none;
 }
 
@@ -65,7 +65,7 @@ a {
 /*navigation***************************************************************************/
 
 nav {
-    background-color: skyblue;
+    background-color: burlywood;
     border-top: 5px solid darkslategrey;
     margin: 20px 0 0;
     text-align: center;
@@ -85,12 +85,12 @@ nav li {
 
 nav a,
 nav a: visited {
-    color: darkblue;
+    color: darkgoldenrod;
 }
 
 nav .selected,
 nav a:hover {
-    color: darkblue;
+    color: darkgoldenrod;
 }
 
 
@@ -103,7 +103,7 @@ nav a:hover {
 }
 
 #gallery li {
-    background-color: darkcyan;
+    background-color: burlywood;
     color: beige;
     float: left;
     margin: 2.5%;
@@ -111,7 +111,7 @@ nav a:hover {
 }
 
 #gallery li a p {
-    color: darkblue;
+    color: saddlebrown;
     font-size: 0.8em;
     margin: 0;
     padding: 5%;
@@ -193,8 +193,8 @@ nav a:hover {
 @media screen and (min-width: 660px) {
     /*nav*/
     header {
-        border-bottom: 5px solid darkslategrey;
-        border-top: 5px solid darkslategrey;
+        border-bottom: 5px solid saddlebrown;
+        border-top: 5px solid saddlebrown;
         margin-bottom: 60px;
     }
 }
