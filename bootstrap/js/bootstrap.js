@@ -32,10 +32,9 @@
 
       var transitionEnd = (function () {
 
-        var el = document.createElement('bootstrap')
-          , transEndEventNames = {
-               'WebkitTransition' : 'webkitTransitionEnd'
-            ,  'MozTransition'    : 'transitionend'
+        var el = document.createElement('bootstrap'), transEndEventNames = {
+               'WebkitTransition' : 'webkitTransitionEnd',  
+               'MozTransition'    : 'transitionend'
             ,  'OTransition'      : 'oTransitionEnd otransitionend'
             ,  'transition'       : 'transitionend'
             }

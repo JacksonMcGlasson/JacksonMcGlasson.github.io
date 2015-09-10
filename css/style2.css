@@ -138,7 +138,7 @@ nav a:hover {
 .profile-photo {
     border-radius: 15%;
     display: block;
-    max-width: 30px;
+    max-width: 70px;
 }
 
 
@@ -180,7 +180,7 @@ nav a:hover {
         float: left;
         width: 28.3333%;
     }
-    #gallery li:nth-child(4n) {
+    #gallery li:nth-child(7n) {
         clear: left;
     }
     /*about page*/
