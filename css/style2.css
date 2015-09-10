@@ -20,6 +20,7 @@ p {
 }
 
 
+
 /*headers***************************************************************************/
 
 h1 {
@@ -159,7 +160,11 @@ nav a:hover {
 .contact-info .twitter a {
     background-image: url('../img/instagram.jpg')
 }
-
+.carousel {
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 1;
+}
 
 /*media queries********************************************************/
 
